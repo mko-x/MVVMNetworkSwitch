@@ -1,0 +1,12 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherViewModel\bin\Debug\NetProfileSwitcherViewModel.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherViewModel\bin\Debug\NetProfileSwitcherViewModel.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcher.ViewModel.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcherViewModel.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcherViewModel.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\bin\Debug\NetProfileSwitcherViewModel.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\bin\Debug\NetProfileSwitcherViewModel.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcherViewModel.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcherViewModel.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcher.ViewModel.Resources.resources
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcher.ViewModel.csproj.GenerateResource.Cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherViewModel\obj\Debug\NetProfileSwitcher.ViewModel.csprojResolveAssemblyReference.cache

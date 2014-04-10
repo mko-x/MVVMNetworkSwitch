@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32E87E13-0833-44DE-89C7-9FFEAA38035C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetProfileSwitcher.Interfaces</RootNamespace>
+    <AssemblyName>NetProfileSwitcher.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Activation\IActivator.cs" />
+    <Compile Include="Base\IFactory.cs" />
+    <Compile Include="Base\IHasValue.cs" />
+    <Compile Include="Base\INeedInjection.cs" />
+    <Compile Include="DataReader\INetworkInterfaceDataReader.cs" />
+    <Compile Include="DataWriter\INetworkInterfaceDataWriter.cs" />
+    <Compile Include="Main\IActivateProfileTask.cs" />
+    <Compile Include="Main\IAddInternalLogServiceTask.cs" />
+    <Compile Include="Main\ICreateDefaultProfileFromActiveSettingsTask.cs" />
+    <Compile Include="Main\IMainTask.cs" />
+    <Compile Include="Main\ISaveProfilesTask.cs" />
+    <Compile Include="Main\IUpdateDisplayData.cs" />
+    <Compile Include="Services\IMainTaskFactory.cs" />
+    <Compile Include="Services\IProfileCreator.cs" />
+    <Compile Include="Services\IProfileDataDisposer.cs" />
+    <Compile Include="Services\IStorageContainerProvider.cs" />
+    <Compile Include="Services\ISystemDataAccess.cs" />
+    <Compile Include="Storage\Tasks\IDeleteTask.cs" />
+    <Compile Include="Storage\Tasks\IReadProfilesTask.cs" />
+    <Compile Include="Storage\Tasks\IReadTask.cs" />
+    <Compile Include="Storage\IStorage.cs" />
+    <Compile Include="Storage\IStorageContainer.cs" />
+    <Compile Include="Storage\IStorageContainerProfiles.cs" />
+    <Compile Include="Storage\Tasks\IStorageBaseTask.cs" />
+    <Compile Include="Storage\Tasks\IWriteProfilesTask.cs" />
+    <Compile Include="Storage\Tasks\IWriteTask.cs" />
+    <Compile Include="Activation\IActivate.cs" />
+    <Compile Include="Activation\IActivateNetworkInterfaceConfiguration.cs" />
+    <Compile Include="Activation\IActivateProfile.cs" />
+    <Compile Include="Activation\IActivateProxyConfiguration.cs" />
+    <Compile Include="Tasks\IValueUpdateHandler.cs" />
+    <Compile Include="Tasks\IHelperTask.cs" />
+    <Compile Include="Tasks\IHelperTaskGeneric.cs" />
+    <Compile Include="Tasks\IHelperTaskNoArg.cs" />
+    <Compile Include="Tasks\IHelperTaskVoid.cs" />
+    <Compile Include="Data\INetworkInterfaceConfiguration.cs" />
+    <Compile Include="Tasks\IValidates.cs" />
+    <Compile Include="Data\IProfile.cs" />
+    <Compile Include="Tasks\IProfileLoader.cs" />
+    <Compile Include="Data\IProfiles.cs" />
+    <Compile Include="Tasks\IProfileSaver.cs" />
+    <Compile Include="Data\IProxyConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

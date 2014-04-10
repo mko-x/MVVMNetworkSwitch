@@ -1,0 +1,11 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Util.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Util.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\Newtonsoft.Json.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\Newtonsoft.Json.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\obj\Release\NetProfileSwitcher.Util.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\obj\Release\NetProfileSwitcher.Util.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\obj\Release\NetProfileSwitcher.Util.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.Util\bin\Release\NetProfileSwitcher.Log.pdb

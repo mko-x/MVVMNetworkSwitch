@@ -1,0 +1,9 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\bin\Debug\FirstFloor.ModernUI.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\bin\Debug\FirstFloor.ModernUI.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\obj\Debug\NetProfileSwitcher.UserControls.csproj.GenerateResource.Cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\obj\Debug\NetProfileSwitcher.UserControls.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\bin\Debug\NetProfileSwitcher.UserControls.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\bin\Debug\NetProfileSwitcher.UserControls.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\obj\Debug\NetProfileSwitcher.UserControls.Properties.Resources.resources
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\obj\Debug\NetProfileSwitcher.UserControls.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherUserControls\obj\Debug\NetProfileSwitcher.UserControls.pdb

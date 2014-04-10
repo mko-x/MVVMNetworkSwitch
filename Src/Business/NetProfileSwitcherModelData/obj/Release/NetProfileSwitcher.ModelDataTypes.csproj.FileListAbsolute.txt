@@ -1,0 +1,13 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.ModelData.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.ModelData.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.Util.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\Newtonsoft.Json.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\NetProfileSwitcher.Util.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\bin\Release\Newtonsoft.Json.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\obj\Release\NetProfileSwitcher.ModelDataTypes.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\obj\Release\NetProfileSwitcher.ModelData.Properties.Resources.resources
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\obj\Release\NetProfileSwitcher.ModelDataTypes.csproj.GenerateResource.Cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\obj\Release\NetProfileSwitcher.ModelData.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelData\obj\Release\NetProfileSwitcher.ModelData.pdb

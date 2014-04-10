@@ -1,0 +1,6 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Log.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\log4net.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\log4net.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Log.pdb

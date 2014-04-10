@@ -1,0 +1,10 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Logs.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Logs.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.csprojResolveAssemblyReference.cache
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Logs.dll
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Debug\NetProfileSwitcher.Logs.pdb
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.dll
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.pdb
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Debug\NetProfileSwitcher.Logs.csprojResolveAssemblyReference.cache

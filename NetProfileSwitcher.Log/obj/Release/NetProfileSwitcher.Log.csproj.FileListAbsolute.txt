@@ -1,0 +1,7 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Release\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Release\NetProfileSwitcher.Log.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Release\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Release\NetProfileSwitcher.Log.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Release\log4net.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\bin\Release\log4net.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\NetProfileSwitcher.Log\obj\Release\NetProfileSwitcher.Log.csprojResolveAssemblyReference.cache

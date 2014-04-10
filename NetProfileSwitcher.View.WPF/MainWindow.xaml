@@ -1,0 +1,219 @@
+﻿<Window x:Class="NetProfileSwitcher.View.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+        xmlns:uic="clr-namespace:NetProfileSwitcher.UIControls;assembly=NetProfileSwitcher.UIControls"
+        xmlns:vm="clr-namespace:NetProfileSwitcher.ViewModel;assembly=NetProfileSwitcher.ViewModel"
+        xmlns:res="clr-namespace:NetProfileSwitcher.ViewModel.Properties;assembly=NetProfileSwitcher.ViewModel"
+        Title="NetProfileSwitcher" 
+        MinHeight="418" MinWidth="376"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
+
+    <Window.Resources>
+        <!--<vm:BaseViewModel x:Key="vm" />-->
+        <vm:MainViewModel x:Key="vm" />
+    </Window.Resources>
+
+    <Grid Name="gridMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+            <ColumnDefinition  />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="145"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="32"/>
+        </Grid.RowDefinitions>
+
+        <!--Choose existing profile first or create new one-->
+        <ComboBox Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0"
+                  Name="cbProfiles"
+                  ItemsSource="{Binding ProfileCollection}"                  
+                  DisplayMemberPath="Name"
+                  SelectedValue="{Binding CurrentProfile}"
+                  IsEditable="True"
+                  LostFocus="ComboBox_Update"
+                  KeyUp="ComboBox_KeyUp"/>
+
+        <Grid Grid.Column="3" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0"  Content="New" Click="Button_New_Click"/>
+            <Button Grid.Column="1"  Content="Save" Command="{Binding SaveProfilesCommand}"/>
+        </Grid>
+
+
+        <!--Network configuration data starts here -->
+        <uic:NetworkGrid Grid.Column="0" 
+              Grid.ColumnSpan="4" 
+              Grid.Row="1" 
+              Name="gridData">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="248*" />
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="159*" />
+                <ColumnDefinition Width="12*"/>
+                <ColumnDefinition Width="76*"/>
+                <ColumnDefinition Width="45" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+
+            <uic:LabelTextBlock Grid.Row="0" Grid.Column="0"  Text="Network Interface" Margin="8,5,7,4"/>
+            <ComboBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5"
+                      ItemsSource="{Binding CurrentProfile.NetworkInterfaceConfigurations}"
+                      DisplayMemberPath="DisplayName"
+                      SelectedValue="{Binding SelectedNetworkConfiguration}"
+                      SelectionChanged="ComboBox_SelectionChanged"/>
+            <uic:CenteredCheckBox Grid.Row="0" Grid.Column="6" Margin="16,6" />
+
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="0" Text="Enable DHCP" Margin="20,5,20,4" />
+            <uic:CenteredCheckBox Grid.Row="1" Grid.Column="1" IsChecked="{Binding Path=SelectedNetworkConfiguration.UseDHCP, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="118,6"/>
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="0" Text="IP " Margin="48,5,48,4" />
+            <TextBox Grid.Row="2" Grid.Column="1" 
+                     Text="{Binding Path=SelectedNetworkConfiguration.IP, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="3" Grid.Column="0" Text="Subnet " Margin="35,5,34,4" />
+            <TextBox Grid.Row="3" Grid.Column="1" 
+                     Text="{Binding Path=SelectedNetworkConfiguration.Subnet, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="2" Text="Gateway " Margin="31,5,30,4" />
+            <TextBox Grid.Row="1" Grid.Column="3" 
+                     Text="{Binding Path=SelectedNetworkConfiguration.Gateway, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="3"/>
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="2" Text="DNS " Margin="41,5,41,4" />
+            <TextBox Grid.Row="2" Grid.Column="3" 
+                     Text="{Binding Path=SelectedNetworkConfiguration.DNS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="3"/>
+
+        </uic:NetworkGrid>
+
+        <!--Proxy configuration data starts here-->
+        <uic:ProxyGrid Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+
+            <uic:LabelTextBlock Grid.Row="0" Grid.Column="0" Text="Enable Proxy" />
+            <uic:CenteredCheckBox Grid.Row="0" Grid.Column="1" 
+                                  IsChecked="{Binding Path=CurrentProfile.ProxySettings.UseProxy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="0" Grid.Column="2" Text="Proxy address" />
+            <TextBox Grid.Row="0" Grid.Column="3" 
+                     Text="{Binding Path=CurrentProfile.ProxySettings.ProxyAddress, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     />
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="0" Text="Bypass local" />
+            <uic:CenteredCheckBox Grid.Row="2" Grid.Column="1" 
+                                  IsChecked="{Binding Path=CurrentProfile.ProxySettings.BypassLocal, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="2" Text="Bypass other"/>
+            <TextBox Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="4" 
+                     Text="{Binding Path=CurrentProfile.ProxySettings.BypassAddresses, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     ToolTip="{x:Static res:Resources.ProxyBypassAddressesToolTip}"
+                     />
+
+        </uic:ProxyGrid>
+
+        <!-- Current configuration data starts here -->
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="3" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Current Configuration" />
+
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="0" Text="IP"/>
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="1" Text="{Binding CurrentNetworkConfiguration.IP, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="0" Text="Subnet"/>
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="1" Text="{Binding CurrentNetworkConfiguration.Subnet, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="3" Grid.Column="0" Text="Gateway"/>
+            <uic:LabelTextBlock Grid.Row="3" Grid.Column="1" Text="{Binding CurrentNetworkConfiguration.Gateway, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="4" Grid.Column="0" Text="DNS"/>
+            <uic:LabelTextBlock Grid.Row="4" Grid.Column="1" Text="{Binding CurrentNetworkConfiguration.DNS, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="5" Grid.Column="0" Text="DHCP"/>
+            <uic:LabelTextBlock Grid.Row="5" Grid.Column="1" Text="{Binding CurrentNetworkConfiguration.UseDHCP, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="2" Text="Proxy"/>
+            <uic:LabelTextBlock Grid.Row="1" Grid.Column="3" Text="{Binding CurrentStatusProxyConfiguration.UseProxy, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="2" Text="Proxy address"/>
+            <uic:LabelTextBlock Grid.Row="2" Grid.Column="3" Text="{Binding CurrentStatusProxyConfiguration.ProxyAddress, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <uic:LabelTextBlock Grid.Row="3" Grid.Column="2" Text="Bypass address(es)"/>
+            <ScrollViewer Grid.Row="3" Grid.RowSpan="3" Grid.Column="3">
+                <TextBlock  Text="{Binding CurrentStatusProxyConfiguration.BypassAddresses}"/>
+            </ScrollViewer>
+        </Grid>
+
+
+        <ScrollViewer Grid.Column="0" Grid.ColumnSpan="5"
+                   Grid.Row="4"
+            Name="scrollLog" Margin="0" Background="Black">
+            <StackPanel>
+
+                <TextBlock Text="{Binding LogAsString}" Foreground="White" FontFamily="Consolas" />
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+        <!-- Control buttons are available here -->
+        <Grid  Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions> 
+
+            <uic:ButtonDark Grid.Column="0" Grid.Row="0" Content="Refresh" Command="{Binding UpdateViewDataCommand}"/>
+            <uic:ButtonDark Grid.Column="1" Grid.Row="0" Content="Delete" Command="{Binding DeleteProfileCommand}"/>
+            <uic:ButtonDark Grid.Column="2" Grid.Row="0" Content="Use current"/>
+            <uic:ButtonDark Grid.Column="3" Grid.Row="0" Content="Activate" Command="{Binding ActivateCommand}"/>
+            <uic:ButtonDark Grid.Column="4" Grid.Row="0" Content="Close" Command="{Binding CloseCommand}"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcherInterfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcherInterfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcherInterfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcherInterfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.csprojResolveAssemblyReference.cache
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Debug\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\mko\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Debug\NetProfileSwitcher.Interfaces.csprojResolveAssemblyReference.cache

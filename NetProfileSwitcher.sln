@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{CDC40099-EA09-4A23-9B7C-6004A55B4EC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{7947FB7C-5239-4A7E-ADCC-70A7238F5E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.View.Modern", "Src\Business\NetProfileSwitcherView\NetProfileSwitcher.View.Modern.csproj", "{65785028-1C83-4CA0-A6F1-1A42238B2B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.ModelDataTypes", "Src\Business\NetProfileSwitcherModelData\NetProfileSwitcher.ModelDataTypes.csproj", "{A318ED30-723C-4D8E-8872-C99EABFA9805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.ModelWorker", "Src\Business\NetProfileSwitcherModelWorker\NetProfileSwitcher.ModelWorker.csproj", "{C2E55387-A911-48F5-9113-129C4D7F5552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.ModelDataStore", "Src\Business\NetProfileSwitcherModelDataBase\NetProfileSwitcher.ModelDataStore.csproj", "{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boundaries", "Boundaries", "{EA652152-E407-4B20-BDF4-A27D88865C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.Interfaces", "Src\Boundaries\NetProfileSwitcherInterfaces\NetProfileSwitcher.Interfaces.csproj", "{32E87E13-0833-44DE-89C7-9FFEAA38035C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.Util", "Src\NetProfileSwitcher.Util\NetProfileSwitcher.Util.csproj", "{250D77BF-90B6-4D14-A535-23BACC5436B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{3DB545AB-5AFA-4E40-95F2-1F39E4B1E816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.View.WPF", "NetProfileSwitcher.View.WPF\NetProfileSwitcher.View.WPF.csproj", "{9CBA0072-1B71-4590-9378-004B3AFBFEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.ViewModel", "Src\NetProfileSwitcher.ViewModel\NetProfileSwitcher.ViewModel.csproj", "{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.UIControls", "Src\NetProfileSwitcher.UIControls\NetProfileSwitcher.UIControls.csproj", "{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7B89D6A-341D-444E-9C51-38F8C072139B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProfileSwitcher.Logs", "NetProfileSwitcher.Log\NetProfileSwitcher.Logs.csproj", "{E99A778A-C2B5-4930-92E5-2DD4E85E32A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65785028-1C83-4CA0-A6F1-1A42238B2B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65785028-1C83-4CA0-A6F1-1A42238B2B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65785028-1C83-4CA0-A6F1-1A42238B2B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65785028-1C83-4CA0-A6F1-1A42238B2B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A318ED30-723C-4D8E-8872-C99EABFA9805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A318ED30-723C-4D8E-8872-C99EABFA9805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A318ED30-723C-4D8E-8872-C99EABFA9805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A318ED30-723C-4D8E-8872-C99EABFA9805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E55387-A911-48F5-9113-129C4D7F5552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E55387-A911-48F5-9113-129C4D7F5552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E55387-A911-48F5-9113-129C4D7F5552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E55387-A911-48F5-9113-129C4D7F5552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E87E13-0833-44DE-89C7-9FFEAA38035C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E87E13-0833-44DE-89C7-9FFEAA38035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E87E13-0833-44DE-89C7-9FFEAA38035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E87E13-0833-44DE-89C7-9FFEAA38035C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250D77BF-90B6-4D14-A535-23BACC5436B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250D77BF-90B6-4D14-A535-23BACC5436B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250D77BF-90B6-4D14-A535-23BACC5436B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250D77BF-90B6-4D14-A535-23BACC5436B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBA0072-1B71-4590-9378-004B3AFBFEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBA0072-1B71-4590-9378-004B3AFBFEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBA0072-1B71-4590-9378-004B3AFBFEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBA0072-1B71-4590-9378-004B3AFBFEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99A778A-C2B5-4930-92E5-2DD4E85E32A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99A778A-C2B5-4930-92E5-2DD4E85E32A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99A778A-C2B5-4930-92E5-2DD4E85E32A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99A778A-C2B5-4930-92E5-2DD4E85E32A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A318ED30-723C-4D8E-8872-C99EABFA9805} = {CDC40099-EA09-4A23-9B7C-6004A55B4EC8}
+		{C2E55387-A911-48F5-9113-129C4D7F5552} = {CDC40099-EA09-4A23-9B7C-6004A55B4EC8}
+		{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61} = {CDC40099-EA09-4A23-9B7C-6004A55B4EC8}
+		{2AB2AADC-8F5C-442C-8E5A-4FE2E2BA3ED0} = {7947FB7C-5239-4A7E-ADCC-70A7238F5E65}
+		{65785028-1C83-4CA0-A6F1-1A42238B2B54} = {3DB545AB-5AFA-4E40-95F2-1F39E4B1E816}
+		{9CBA0072-1B71-4590-9378-004B3AFBFEE3} = {3DB545AB-5AFA-4E40-95F2-1F39E4B1E816}
+		{C1C97C86-3CC2-4BF5-B644-37FCA388A5B5} = {3DB545AB-5AFA-4E40-95F2-1F39E4B1E816}
+		{32E87E13-0833-44DE-89C7-9FFEAA38035C} = {EA652152-E407-4B20-BDF4-A27D88865C24}
+		{250D77BF-90B6-4D14-A535-23BACC5436B3} = {EA652152-E407-4B20-BDF4-A27D88865C24}
+		{E99A778A-C2B5-4930-92E5-2DD4E85E32A5} = {EA652152-E407-4B20-BDF4-A27D88865C24}
+	EndGlobalSection
+EndGlobal

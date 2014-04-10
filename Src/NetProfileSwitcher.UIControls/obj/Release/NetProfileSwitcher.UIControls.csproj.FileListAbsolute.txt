@@ -1,0 +1,17 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\NetProfileSwitcher.UIControls.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\NetProfileSwitcher.UIControls.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\obj\Release\NetProfileSwitcher.UIControls.Properties.Resources.resources
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\obj\Release\NetProfileSwitcher.UIControls.csproj.GenerateResource.Cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\obj\Release\NetProfileSwitcher.UIControls.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\obj\Release\NetProfileSwitcher.UIControls.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.WPF45.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\System.Windows.Interactivity.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.WPF45.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\GalaSoft.MvvmLight.WPF45.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\NetProfileSwitcher.UIControls\bin\Release\System.Windows.Interactivity.xml

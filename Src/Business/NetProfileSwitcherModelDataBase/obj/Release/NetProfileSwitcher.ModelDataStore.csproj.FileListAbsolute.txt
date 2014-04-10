@@ -1,0 +1,15 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.ModelDataStore.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.ModelDataStore.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.ModelData.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Util.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\Newtonsoft.Json.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Util.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.ModelData.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\Newtonsoft.Json.xml
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\obj\Release\NetProfileSwitcher.ModelDataStore.csprojResolveAssemblyReference.cache
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\obj\Release\NetProfileSwitcher.ModelDataStore.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\obj\Release\NetProfileSwitcher.ModelDataStore.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Log.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Business\NetProfileSwitcherModelDataBase\bin\Release\NetProfileSwitcher.Log.pdb

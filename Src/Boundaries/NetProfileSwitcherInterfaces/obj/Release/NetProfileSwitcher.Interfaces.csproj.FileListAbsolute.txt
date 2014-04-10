@@ -1,0 +1,5 @@
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Release\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\bin\Release\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Release\NetProfileSwitcher.Interfaces.dll
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Release\NetProfileSwitcher.Interfaces.pdb
+C:\Projekte\NetExperiments\NetProfileSwitcher\Src\Boundaries\NetProfileSwitcherInterfaces\obj\Release\NetProfileSwitcher.Interfaces.csprojResolveAssemblyReference.cache

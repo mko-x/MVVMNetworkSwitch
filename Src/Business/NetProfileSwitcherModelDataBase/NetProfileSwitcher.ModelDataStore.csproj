@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8C6C954-4B2E-46DC-B501-CF7AB51E4B61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetProfileSwitcher.ModelDataStore</RootNamespace>
+    <AssemblyName>NetProfileSwitcher.ModelDataStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="StorageContainer\AbstractStorageContainer.cs" />
+    <Compile Include="StorageContainer\FileStreamStorageContainer.cs" />
+    <Compile Include="StorageContainer\FileStreamTasks\FileStreamBaseTask.cs" />
+    <Compile Include="StorageContainer\FileStreamTasks\FileStreamDelete.cs" />
+    <Compile Include="StorageContainer\FileStreamTasks\FileStreamRead.cs" />
+    <Compile Include="StorageContainer\FileStreamTasks\FileStreamWrite.cs" />
+    <Compile Include="StorageWorker\ProfileBaseWorker.cs" />
+    <Compile Include="StorageWorker\StorageContainerProvider.cs" />
+    <Compile Include="StorageWorker\ProfileLoader.cs" />
+    <Compile Include="StorageWorker\ProfileSaver.cs" />
+    <Compile Include="ProfileDataStoreWorker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\NetProfileSwitcher.Log\NetProfileSwitcher.Logs.csproj">
+      <Project>{e99a778a-c2b5-4930-92e5-2dd4e85e32a5}</Project>
+      <Name>NetProfileSwitcher.Logs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Boundaries\NetProfileSwitcherInterfaces\NetProfileSwitcher.Interfaces.csproj">
+      <Project>{32e87e13-0833-44de-89c7-9ffeaa38035c}</Project>
+      <Name>NetProfileSwitcher.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NetProfileSwitcher.Util\NetProfileSwitcher.Util.csproj">
+      <Project>{250d77bf-90b6-4d14-a535-23bacc5436b3}</Project>
+      <Name>NetProfileSwitcher.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetProfileSwitcherModelData\NetProfileSwitcher.ModelDataTypes.csproj">
+      <Project>{a318ed30-723c-4d8e-8872-c99eabfa9805}</Project>
+      <Name>NetProfileSwitcher.ModelDataTypes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
